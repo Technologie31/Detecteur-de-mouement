@@ -1,0 +1,30 @@
+{
+    "name": "Déecteur de mouement",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "GestureRecognition": "github:yahboomtechnology/gr#a2c63e2c51e1e0360ed440fb54f9c49c2744bc83",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.17",
+        "tag": "v3.0.17",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/414403fca5144b77b5c4944174a1a4f2144af5fe",
+        "target": "4.0.18",
+        "pxt": "6.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
